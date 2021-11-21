@@ -20,9 +20,9 @@ const Index = () => {
           </div>
           <Image src="/images/profile.jpg" alt="hero" height={1195} width={1000} quality={90} />
         </div>
-        <div className={style.skillsContainer}>
+        <div className={style.skills}>
           <h2>Skills</h2>
-          <div>
+          <div className={style.skillsContainer}>
             <div>
               <img src="/images/javascript.svg" alt="javascript" /><span>JavaScript</span>
             </div>
