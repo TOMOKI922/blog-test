@@ -12,7 +12,7 @@ const Blog = (props) => {
                 <p>エンジニアの日常生活をお届けします</p>
                 {props.blogs.map((blog,index) => { 
                      return(
-                         <div key={index} className={style.blogContainer}>
+                         <div key={index} className={style.blogCard}>
                              <div className={style.textContainer}>
                                  <h3>{blog.frontmatter.id}</h3>
                                  <p>{blog.frontmatter.title}</p>
