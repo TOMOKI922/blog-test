@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Link from "../styles/common.module.scss"
+import * as style "../styles/common.module.scss"
 const Footer = () => {
     return(
         <footer className={style.footer}>
